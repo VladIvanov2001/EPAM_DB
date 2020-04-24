@@ -12,24 +12,24 @@ connect &&USER_NAME/oracle
 -- Run our scripts
 
 PROMPT Calling create_tables started
-@create/create_user.sql &&USER_NAME &&TABLESPACE_NAME
-@create/create_album.sql &&USER_NAME &&TABLESPACE_NAME
-@create/create_playlist.sql &&USER_NAME &&TABLESPACE_NAME
-@create/create_composition.sql &&USER_NAME &&TABLESPACE_NAME
-@create/compositions_review.sql &&USER_NAME &&TABLESPACE_NAME
-@create/album_review.sql &&USER_NAME &&TABLESPACE_NAME
-@create/genre.sql &&USER_NAME &&TABLESPACE_NAME
-@create/playlist_contain.sql &&USER_NAME &&TABLESPACE_NAME
-@create/story_of_listening.sql &&USER_NAME &&TABLESPACE_NAME
-@create/user_playlist.sql &&USER_NAME &&TABLESPACE_NAME
-@create/user_state.sql &&USER_NAME &&TABLESPACE_NAME
+@create/create_user.sql &&1 &&2
+@create/create_album.sql &&1 &&2
+@create/create_playlist.sql &&1 &&2
+@create/create_composition.sql &&1 &&2
+@create/compositions_review.sql &&1 &&2
+@create/album_review.sql &&1 &&2
+@create/genre.sql &&1 &&2
+@create/playlist_contain.sql &&1 &&2
+@create/story_of_listening.sql &&1 &&2
+@create/user_playlist.sql &&1 &&2
+@create/user_state.sql &&1 &&2
 
 
 
 PROMPT Calling create_tables finished
 
 PROMPT Calling insert_values started
-@insert_values.sql &&USER_NAME
+@insert_values.sql &&1
 PROMPT Calling insert_values finished
 
 SET SERVEROUTPUT OFF
