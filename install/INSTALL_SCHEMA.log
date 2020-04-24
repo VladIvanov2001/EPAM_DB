@@ -1,0 +1,25 @@
+'NEW Tablespace_DATA is start to create'
+old   1:   CREATE SMALLFILE TABLESPACE &&TABLESPACE_NAME&CURS
+new   1:   CREATE SMALLFILE TABLESPACE SOUND_DATA
+old   2:   DATAFILE '&&TBS_LOCATION\&&TABLESPACE_NAME&CURS&EXT'
+new   2:   DATAFILE 'C:\oracle\oradata\ORCL\SOUND_DATA.dbf'
+
+Tablespace created.
+
+'DATA Tablespace is created'
+'NEW Tablespace_IDX is start to create'
+old   1:   CREATE SMALLFILE TABLESPACE &&TABLESPACE_NAME&CURS1
+new   1:   CREATE SMALLFILE TABLESPACE SOUND_IDX
+old   2:   DATAFILE '&&TBS_LOCATION\&&TABLESPACE_NAME&CURS1&EXT'
+new   2:   DATAFILE 'C:\oracle\oradata\ORCL\SOUND_IDX.dbf'
+
+Tablespace created.
+
+'IDX Tablespace is created'
+====CREATE_USER====
+old   1: CREATE USER &TABLESPACE_NAME identified by &PASSWORD
+new   1: CREATE USER SOUND identified by oracleoracle
+
+User created.
+
+====CREATE_USER_FINISHED====
