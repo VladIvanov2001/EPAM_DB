@@ -1,0 +1,539 @@
+Username to upgrade: MUSIC
+Connected.
+Calling create_tables started
+old  15: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  15: TABLESPACE MUSIC_DATA
+CREATE TABLE USERS
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.01
+old  14: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  14: TABLESPACE MUSIC_DATA
+CREATE TABLE ALBUM
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+Elapsed: 00:00:00.02
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.01
+old  16: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  16: TABLESPACE MUSIC_DATA
+CREATE TABLE PLAYLIST
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+Elapsed: 00:00:00.02
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+old  20: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  20: TABLESPACE MUSIC_DATA
+CREATE TABLE COMPOSITION
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+ALTER TABLE COMPOSITION ADD CONSTRAINT fk_COMPOSITION_ID_ALBUM FOREIGN KEY(ID_ALBUM)
+                                                               *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.04
+old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  13: TABLESPACE MUSIC_DATA
+CREATE TABLE COMPOSITON_REVIEW
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+Elapsed: 00:00:00.01
+ALTER TABLE COMPOSITON_REVIEW ADD CONSTRAINT fk_COMPOSITON_REVIEW_ID_USER FOREIGN KEY(ID_USER)
+                                                                          *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.03
+ALTER TABLE COMPOSITON_REVIEW ADD CONSTRAINT fk_COMPOSITON_REVIEW_ID_COMPOSITION FOREIGN KEY(ID_COMPOSITION)
+                                                                                 *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.04
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  13: TABLESPACE MUSIC_DATA
+CREATE TABLE ALBUMS_REVIEW
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+Elapsed: 00:00:00.02
+ALTER TABLE ALBUMS_REVIEW ADD CONSTRAINT fk_ALBUMS_REVIEW_ID_User FOREIGN KEY(ID_USER)
+                                                                  *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.03
+ALTER TABLE ALBUMS_REVIEW ADD CONSTRAINT fk_ALBUMS_REVIEW_ID_ALBUM FOREIGN KEY(ID_ALBUM)
+                                                                   *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.04
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.01
+old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  13: TABLESPACE MUSIC_DATA
+CREATE TABLE GENRE
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+Elapsed: 00:00:00.02
+ALTER TABLE GENRE ADD CONSTRAINT fk_GENRE_ID_COMPOSITION FOREIGN KEY(ID_COMPOSITION)
+                                                         *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.04
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.02
+
+Comment created.
+
+Elapsed: 00:00:00.01
+old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  13: TABLESPACE MUSIC_DATA
+CREATE TABLE PLAYLIST_CONTAIN
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+Elapsed: 00:00:00.03
+ALTER TABLE PLAYLIST_CONTAIN ADD CONSTRAINT fk_PLAYLIST_CONTAIN_ID_COMPOSITION FOREIGN KEY(ID_COMPOSITION)
+                                                                               *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.06
+ALTER TABLE PLAYLIST_CONTAIN ADD CONSTRAINT fk_PLAYLIST_CONTAIN_ID_PLAYLIST FOREIGN KEY(ID_PLAYLIST)
+                                                                            *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.05
+ALTER TABLE PLAYLIST_CONTAIN ADD CONSTRAINT fk_PLAYLIST_CONTAIN_ID_ALBUM FOREIGN KEY(ID_ALBUM)
+                                                                         *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.04
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.02
+old  14: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  14: TABLESPACE MUSIC_DATA
+CREATE TABLE STORY_OF_LISTENING
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+Elapsed: 00:00:00.03
+ALTER TABLE STORY_OF_LISTENING ADD CONSTRAINT fk_STORY_OF_LISTENING_ID_USER FOREIGN KEY(ID_USER)
+                                                                            *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.04
+ALTER TABLE STORY_OF_LISTENING ADD CONSTRAINT fk_STORY_OF_LISTENING_ID_ALBUM FOREIGN KEY(ID_ALBUM)
+                                                                             *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.05
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+old  12: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  12: TABLESPACE MUSIC_DATA
+CREATE TABLE USER_PLAYLIST
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+Elapsed: 00:00:00.02
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+ALTER TABLE USER_PLAYLIST ADD CONSTRAINT fk_USER_PLAYLIST_ID_USER FOREIGN KEY(ID_USER)
+                                                                  *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.03
+ALTER TABLE USER_PLAYLIST ADD CONSTRAINT fk_USER_PLAYLIST_ID_PLAYLIST FOREIGN KEY(ID_PLAYLIST)
+                                                                      *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.03
+old  16: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  16: TABLESPACE MUSIC_DATA
+CREATE TABLE USER_STATE
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+Elapsed: 00:00:00.02
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+ALTER TABLE USER_STATE ADD CONSTRAINT fk_USER_STATE_ID_USER FOREIGN KEY(ID_USER)
+                                                            *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.03
+ALTER TABLE USER_STATE ADD CONSTRAINT fk_USER_STATE_ID_COMPOSITION FOREIGN KEY(ID_COMPOSITION)
+                                                                   *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.03
+ALTER TABLE USER_STATE ADD CONSTRAINT fk_USER_STATE_ID_ALBUM FOREIGN KEY(ID_ALBUM)
+                                                             *
+ERROR at line 1:
+ORA-02275: such a referential constraint already exists in the table 
+
+
+Elapsed: 00:00:00.03
+Calling create_tables finished
+Calling insert_values started
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+INSERT INTO STORY_OF_LISTENING(ID_USER, ID_COMPOSITION, ID_ALBUM, DATE_OF_LISTENING) VALUES(1,1,1,'01/01/2020')
+                                                                                                  *
+ERROR at line 1:
+ORA-01843: not a valid month 
+
+
+Elapsed: 00:00:00.03
+INSERT INTO STORY_OF_LISTENING(ID_USER, ID_COMPOSITION, ID_ALBUM, DATE_OF_LISTENING) VALUES(2,2,2,'02/02/2020')
+                                                                                                  *
+ERROR at line 1:
+ORA-01843: not a valid month 
+
+
+Elapsed: 00:00:00.03
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+Calling insert_values finished
