@@ -31,6 +31,10 @@ PROMPT Calling insert_values started
 @insert_values.sql
 PROMPT Calling insert_values finished
 
+PROMPT Calling insert_values from excel table
+@dataFromExcel.sql
+PROMPT Calling insert_values finished
+
 SET SERVEROUTPUT OFF
 
 UNDEFINE USER_NAME
