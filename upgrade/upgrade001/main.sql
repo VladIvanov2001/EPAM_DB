@@ -32,7 +32,7 @@ PROMPT Calling insert_values started
 PROMPT Calling insert_values finished
 
 PROMPT Calling insert_values from excel table
-@dataFromExcel.sql
+@dataFromExcel.sql &&1
 PROMPT Calling insert_values finished
 
 SET SERVEROUTPUT OFF

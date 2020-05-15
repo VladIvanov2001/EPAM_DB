@@ -1,24 +1,18 @@
 'Drop is begin'
 old   1: DROP TABLESPACE &&TABLESPACE_NAME&&CURS
-new   1: DROP TABLESPACE MUSIC_DATA
-DROP TABLESPACE MUSIC_DATA
-*
-ERROR at line 1:
-ORA-00959: tablespace 'MUSIC_DATA' does not exist 
+new   1: DROP TABLESPACE SERVICE_DATA
 
+Tablespace dropped.
 
 'DATA tablespace dropped'
 old   1: DROP TABLESPACE &&TABLESPACE_NAME&&CURS1
-new   1: DROP TABLESPACE MUSIC_IDX
-DROP TABLESPACE MUSIC_IDX
-*
-ERROR at line 1:
-ORA-00959: tablespace 'MUSIC_IDX' does not exist 
+new   1: DROP TABLESPACE SERVICE_IDX
 
+Tablespace dropped.
 
 'IDX tablespace dropped'
 old   1: DROP USER &&USER_NAME CASCADE
-new   1: DROP USER MUSIC CASCADE
+new   1: DROP USER SERVICE CASCADE
 
 User dropped.
 
