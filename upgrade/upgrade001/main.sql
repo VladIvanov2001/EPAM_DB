@@ -23,17 +23,16 @@ PROMPT Calling create_tables started
 @create/user_playlist.sql &&1
 @create/user_state.sql &&1
 
-
-
 PROMPT Calling create_tables finished
+
+PROMPT Calling creating from excel table
+@dataFromExcel.sql &&1
+PROMPT Calling creating finished
 
 PROMPT Calling insert_values started
 @insert_values.sql
 PROMPT Calling insert_values finished
 
-PROMPT Calling insert_values from excel table
-@dataFromExcel.sql &&1
-PROMPT Calling insert_values finished
 
 SET SERVEROUTPUT OFF
 
