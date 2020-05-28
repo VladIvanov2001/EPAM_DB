@@ -1,6 +1,6 @@
 SET SERVEROUTPUT ON
 
-CREATE VIEW MUSIC_SERVICE AS
+CREATE VIEW FINAL AS
     SELECT u.first_name,
     u.second_name AS Last_name,
     u.login as Nickname,
@@ -15,11 +15,11 @@ CREATE VIEW MUSIC_SERVICE AS
     us.stopping_time AS STOPPED_TIME
     
     FROM EXDATA ex
-        JOIN COMPOSITION c ON ex.COMPOSITION_NAME = c.NAME_OF_SONG
-        JOIN composition_review cr ON ex.COMMENTS_TRACK = cr.review        
-        JOIN genre g ON ex.MUSIC_TYPE = g.genre
-        JOIN user_state us on ex.STOPPED_TIME = us.STOPPING_TIME
-        JOIN users u on ex.NICKNAME = u.LOGIN;    
+        JOIN users u on ex.nickname = u.login
+        JOIN composition c ON ex.composition_name = c.name_of_song
+        JOIN composition_review cr ON ex.comments_track = cr.review        
+        JOIN genre g ON ex.music_type = g.genre
+        JOIN user_state us on ex.stopped_time = us.stopping_time;
      
     
     

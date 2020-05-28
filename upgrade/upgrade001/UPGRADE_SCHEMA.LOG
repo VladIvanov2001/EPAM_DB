@@ -132,7 +132,7 @@ Elapsed: 00:00:00.00
 
 Table altered.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.02
 old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
 new  13: TABLESPACE LAST_DATA
 
@@ -378,19 +378,18 @@ Calling create_tables finished
 Calling creating from excel table
 old  27: TABLESPACE &&DATA_TBS_NAME&&CURS
 new  27: TABLESPACE LAST_DATA
+CREATE TABLE EXDATA (
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
 
-Table created.
 
-Elapsed: 00:00:00.02
+Elapsed: 00:00:00.00
 Calling creating finished
 Calling insert_values started
 
 1 row created.
 
-Elapsed: 00:00:00.01
-
-1 row created.
-
 Elapsed: 00:00:00.00
 
 1 row created.
@@ -405,49 +404,45 @@ Elapsed: 00:00:00.00
 
 Elapsed: 00:00:00.00
 
-5 rows created.
-
-Elapsed: 00:00:00.01
-
-5 rows created.
-
-Elapsed: 00:00:00.04
-
-5 rows created.
-
-Elapsed: 00:00:00.02
-
 1 row created.
+
+Elapsed: 00:00:00.00
+
+10 rows created.
 
 Elapsed: 00:00:00.01
 
-1 row created.
+10 rows created.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.03
 
-1 row created.
-
-Elapsed: 00:00:00.01
-
-1 row created.
-
-Elapsed: 00:00:00.00
-
-5 rows created.
-
-Elapsed: 00:00:00.01
-
-5 rows created.
-
-Elapsed: 00:00:00.00
-
-1 row created.
+10 rows created.
 
 Elapsed: 00:00:00.02
 
 1 row created.
 
 Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+10 rows created.
+
+Elapsed: 00:00:00.01
+
+10 rows created.
+
+Elapsed: 00:00:00.01
 
 1 row created.
 
@@ -459,9 +454,17 @@ Elapsed: 00:00:00.00
 
 1 row created.
 
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
 Elapsed: 00:00:00.01
 
-5 rows created.
+10 rows created.
 
 Elapsed: 00:00:00.02
 Calling insert_values finished
