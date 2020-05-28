@@ -1,8 +1,8 @@
-Username to upgrade: FINALTRY
+Username to upgrade: LAST
 Connected.
 Calling create_tables started
 old  14: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  14: TABLESPACE FINALTRY_DATA
+new  14: TABLESPACE LAST_DATA
 
 Table created.
 
@@ -28,7 +28,7 @@ Comment created.
 
 Elapsed: 00:00:00.00
 old  14: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  14: TABLESPACE FINALTRY_DATA
+new  14: TABLESPACE LAST_DATA
 
 Table created.
 
@@ -54,7 +54,7 @@ Comment created.
 
 Elapsed: 00:00:00.00
 old  14: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  14: TABLESPACE FINALTRY_DATA
+new  14: TABLESPACE LAST_DATA
 
 Table created.
 
@@ -80,11 +80,11 @@ Comment created.
 
 Elapsed: 00:00:00.00
 old  20: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  20: TABLESPACE FINALTRY_DATA
+new  20: TABLESPACE LAST_DATA
 
 Table created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.02
 
 Comment created.
 
@@ -134,7 +134,7 @@ Table altered.
 
 Elapsed: 00:00:00.01
 old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  13: TABLESPACE FINALTRY_DATA
+new  13: TABLESPACE LAST_DATA
 
 Table created.
 
@@ -142,7 +142,7 @@ Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Table altered.
 
@@ -164,7 +164,7 @@ Comment created.
 
 Elapsed: 00:00:00.00
 old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  13: TABLESPACE FINALTRY_DATA
+new  13: TABLESPACE LAST_DATA
 
 Table created.
 
@@ -179,7 +179,7 @@ ERROR at line 2:
 ORA-02270: no matching unique or primary key for this column-list 
 
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Index created.
 
@@ -201,7 +201,7 @@ Comment created.
 
 Elapsed: 00:00:00.00
 old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  13: TABLESPACE FINALTRY_DATA
+new  13: TABLESPACE LAST_DATA
 
 Table created.
 
@@ -227,7 +227,7 @@ Comment created.
 
 Elapsed: 00:00:00.00
 old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  13: TABLESPACE FINALTRY_DATA
+new  13: TABLESPACE LAST_DATA
 
 Table created.
 
@@ -239,11 +239,11 @@ Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Comment created.
 
@@ -261,7 +261,7 @@ Comment created.
 
 Elapsed: 00:00:00.00
 old  14: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  14: TABLESPACE FINALTRY_DATA
+new  14: TABLESPACE LAST_DATA
 
 Table created.
 
@@ -295,7 +295,7 @@ Comment created.
 
 Elapsed: 00:00:00.00
 old  12: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  12: TABLESPACE FINALTRY_DATA
+new  12: TABLESPACE LAST_DATA
 
 Table created.
 
@@ -329,7 +329,7 @@ Index created.
 
 Elapsed: 00:00:00.00
 old  16: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  16: TABLESPACE FINALTRY_DATA
+new  16: TABLESPACE LAST_DATA
 
 Table created.
 
@@ -369,7 +369,7 @@ Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
 
 Table altered.
 
@@ -377,56 +377,45 @@ Elapsed: 00:00:00.01
 Calling create_tables finished
 Calling creating from excel table
 old  27: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  27: TABLESPACE FINALTRY_DATA
-CREATE TABLE EXDATA (
-             *
-ERROR at line 1:
-ORA-00955: name is already used by an existing object 
+new  27: TABLESPACE LAST_DATA
 
+Table created.
 
-Elapsed: 00:00:00.00
+Elapsed: 00:00:00.02
 Calling creating finished
 Calling insert_values started
 
 1 row created.
 
-Elapsed: 00:00:00.00
-
-1 row created.
-
-Elapsed: 00:00:00.00
-
-1 row created.
-
-Elapsed: 00:00:00.00
-
-1 row created.
-
-Elapsed: 00:00:00.00
-
-1 row created.
-
-Elapsed: 00:00:00.00
-
-15 rows created.
-
-Elapsed: 00:00:00.01
-
-15 rows created.
-
-Elapsed: 00:00:00.03
-
-15 rows created.
-
-Elapsed: 00:00:00.03
-
-1 row created.
-
 Elapsed: 00:00:00.01
 
 1 row created.
 
 Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+5 rows created.
+
+Elapsed: 00:00:00.01
+
+5 rows created.
+
+Elapsed: 00:00:00.04
+
+5 rows created.
+
+Elapsed: 00:00:00.02
 
 1 row created.
 
@@ -436,13 +425,29 @@ Elapsed: 00:00:00.01
 
 Elapsed: 00:00:00.00
 
-15 rows created.
+1 row created.
 
 Elapsed: 00:00:00.01
 
-15 rows created.
+1 row created.
+
+Elapsed: 00:00:00.00
+
+5 rows created.
 
 Elapsed: 00:00:00.01
+
+5 rows created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.00
 
 1 row created.
 
@@ -456,15 +461,7 @@ Elapsed: 00:00:00.00
 
 Elapsed: 00:00:00.01
 
-1 row created.
-
-Elapsed: 00:00:00.00
-
-1 row created.
-
-Elapsed: 00:00:00.02
-
-15 rows created.
+5 rows created.
 
 Elapsed: 00:00:00.02
 Calling insert_values finished
