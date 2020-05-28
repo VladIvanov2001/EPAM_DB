@@ -1,12 +1,12 @@
-Username to upgrade: UIO
+Username to upgrade: FINALTRY
 Connected.
 Calling create_tables started
 old  14: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  14: TABLESPACE UIO_DATA
+new  14: TABLESPACE FINALTRY_DATA
 
 Table created.
 
-Elapsed: 00:00:00.07
+Elapsed: 00:00:00.02
 
 Comment created.
 
@@ -28,7 +28,7 @@ Comment created.
 
 Elapsed: 00:00:00.00
 old  14: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  14: TABLESPACE UIO_DATA
+new  14: TABLESPACE FINALTRY_DATA
 
 Table created.
 
@@ -54,11 +54,11 @@ Comment created.
 
 Elapsed: 00:00:00.00
 old  14: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  14: TABLESPACE UIO_DATA
+new  14: TABLESPACE FINALTRY_DATA
 
 Table created.
 
-Elapsed: 00:00:00.02
+Elapsed: 00:00:00.01
 
 Comment created.
 
@@ -80,118 +80,114 @@ Comment created.
 
 Elapsed: 00:00:00.00
 old  20: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  20: TABLESPACE UIO_DATA
+new  20: TABLESPACE FINALTRY_DATA
 
 Table created.
-
-Elapsed: 00:00:00.02
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Table altered.
-
-Elapsed: 00:00:00.06
-old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  13: TABLESPACE UIO_DATA
-
-Table created.
-
-Elapsed: 00:00:00.04
-
-Table altered.
-
-Elapsed: 00:00:00.03
-
-Table altered.
-
-Elapsed: 00:00:00.03
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
 
 Elapsed: 00:00:00.01
 
 Comment created.
 
 Elapsed: 00:00:00.00
-old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  13: TABLESPACE UIO_DATA
 
-Table created.
+Comment created.
 
-Elapsed: 00:00:00.04
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
 
 Table altered.
 
-Elapsed: 00:00:00.02
+Elapsed: 00:00:00.01
+old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  13: TABLESPACE FINALTRY_DATA
+
+Table created.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
+new  13: TABLESPACE FINALTRY_DATA
+
+Table created.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.01
 REFERENCES COMPOSITION (ID_ALBUM)
                         *
 ERROR at line 2:
 ORA-02270: no matching unique or primary key for this column-list 
 
 
-Elapsed: 00:00:00.02
+Elapsed: 00:00:00.01
 
 Index created.
 
-Elapsed: 00:00:00.02
+Elapsed: 00:00:00.00
 
 Index created.
 
-Elapsed: 00:00:00.01
-
-Comment created.
-
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Comment created.
 
@@ -199,55 +195,59 @@ Elapsed: 00:00:00.00
 
 Comment created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
 old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  13: TABLESPACE UIO_DATA
+new  13: TABLESPACE FINALTRY_DATA
 
 Table created.
 
-Elapsed: 00:00:00.04
+Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.04
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
 Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
 old  13: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  13: TABLESPACE UIO_DATA
+new  13: TABLESPACE FINALTRY_DATA
 
 Table created.
 
-Elapsed: 00:00:00.04
+Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.03
+Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.02
+Elapsed: 00:00:00.00
 
 Table altered.
 
-Elapsed: 00:00:00.03
+Elapsed: 00:00:00.00
 
 Comment created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Comment created.
 
@@ -259,21 +259,21 @@ Elapsed: 00:00:00.00
 
 Comment created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 old  14: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  14: TABLESPACE UIO_DATA
+new  14: TABLESPACE FINALTRY_DATA
 
 Table created.
 
-Elapsed: 00:00:00.04
+Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.02
+Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.02
+Elapsed: 00:00:00.01
 
 Comment created.
 
@@ -281,25 +281,25 @@ Elapsed: 00:00:00.00
 
 Comment created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Comment created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Comment created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Comment created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 old  12: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  12: TABLESPACE UIO_DATA
+new  12: TABLESPACE FINALTRY_DATA
 
 Table created.
 
-Elapsed: 00:00:00.04
+Elapsed: 00:00:00.01
 
 Comment created.
 
@@ -307,48 +307,32 @@ Elapsed: 00:00:00.00
 
 Comment created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 Comment created.
 
+Elapsed: 00:00:00.00
+
+Table altered.
+
 Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.03
-
-Table altered.
-
-Elapsed: 00:00:00.03
-
-Index created.
-
-Elapsed: 00:00:00.02
-
-Index created.
-
 Elapsed: 00:00:00.01
+
+Index created.
+
+Elapsed: 00:00:00.00
+
+Index created.
+
+Elapsed: 00:00:00.00
 old  16: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  16: TABLESPACE UIO_DATA
+new  16: TABLESPACE FINALTRY_DATA
 
 Table created.
 
-Elapsed: 00:00:00.04
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
-Elapsed: 00:00:00.00
-
-Comment created.
-
 Elapsed: 00:00:00.01
 
 Comment created.
@@ -361,36 +345,51 @@ Elapsed: 00:00:00.00
 
 Comment created.
 
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Table altered.
+
 Elapsed: 00:00:00.01
 
 Table altered.
 
-Elapsed: 00:00:00.03
+Elapsed: 00:00:00.00
 
 Table altered.
 
-Elapsed: 00:00:00.02
-
-Table altered.
-
-Elapsed: 00:00:00.02
+Elapsed: 00:00:00.01
 Calling create_tables finished
 Calling creating from excel table
 old  27: TABLESPACE &&DATA_TBS_NAME&&CURS
-new  27: TABLESPACE UIO_DATA
+new  27: TABLESPACE FINALTRY_DATA
+CREATE TABLE EXDATA (
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
 
-Table created.
 
-Elapsed: 00:00:00.04
+Elapsed: 00:00:00.00
 Calling creating finished
 Calling insert_values started
 
 1 row created.
 
-Elapsed: 00:00:00.49
-
-1 row created.
-
 Elapsed: 00:00:00.00
 
 1 row created.
@@ -405,18 +404,19 @@ Elapsed: 00:00:00.00
 
 Elapsed: 00:00:00.00
 
-5 rows created.
+1 row created.
+
+Elapsed: 00:00:00.00
+
+15 rows created.
+
+Elapsed: 00:00:00.01
+
+15 rows created.
 
 Elapsed: 00:00:00.03
 
-5 rows created.
-
-Elapsed: 00:00:00.16
-       SELECT DBMS_RANDOM.STRING ('x', DBMS_RANDOM.VALUE (3,5), LENGTH, COMPOSITION_LIKES, dbms_random.value(1, 10), LISTEN, dbms_random.value(1, 10), MUSIC_TYPE, MUSIC_TYPE, MUSIC_TYPE, 1 FROM EXDATA
-                                                                                                                                                                                             *
-ERROR at line 2:
-ORA-00907: missing right parenthesis 
-
+15 rows created.
 
 Elapsed: 00:00:00.03
 
@@ -426,51 +426,35 @@ Elapsed: 00:00:00.01
 
 1 row created.
 
-Elapsed: 00:00:00.01
+Elapsed: 00:00:00.00
 
 1 row created.
-
-Elapsed: 00:00:00.04
-
-1 row created.
-
-Elapsed: 00:00:00.01
-INSERT INTO COMPOSITION_REVIEW(ID_USER, ID_COMPOSITION, REVIEW) SELECT dbms_random.value(1, 2), dbms_random.value(1, 2), COMMENTS_TRACK FROM EXDATA
-*
-ERROR at line 1:
-ORA-02291: integrity constraint (UIO.FK_COMPOSITION_REVIEW_ID_COMPOSITION) 
-violated - parent key not found 
-
-
-Elapsed: 00:00:00.04
-INSERT INTO GENRE(GENRE, RATING, ID_COMPOSITION) SELECT MUSIC_TYPE, 1, 1 from EXDATA
-*
-ERROR at line 1:
-ORA-02291: integrity constraint (UIO.FK_GENRE_ID_COMPOSITION) violated - parent 
-key not found 
-
-
-Elapsed: 00:00:00.03
-INSERT INTO PLAYLIST_CONTAIN(ID_COMPOSITION, ID_PLAYLIST, ID_ALBUM) SELECT dbms_random.value(1, 3),dbms_random.value(1, 3),dbms_random.value(1, 3) from dual
-*
-ERROR at line 1:
-ORA-02291: integrity constraint (UIO.FK_PLAYLIST_CONTAIN_ID_PLAYLIST) violated 
-- parent key not found 
-
-
-Elapsed: 00:00:00.06
-INSERT INTO PLAYLIST_CONTAIN(ID_COMPOSITION, ID_PLAYLIST, ID_ALBUM) SELECT dbms_random.value(1, 3),dbms_random.value(1, 3),dbms_random.value(1, 3) from dual
-*
-ERROR at line 1:
-ORA-02291: integrity constraint (UIO.FK_PLAYLIST_CONTAIN_ID_PLAYLIST) violated 
-- parent key not found 
-
 
 Elapsed: 00:00:00.01
 
 1 row created.
 
-Elapsed: 00:00:00.03
+Elapsed: 00:00:00.00
+
+15 rows created.
+
+Elapsed: 00:00:00.01
+
+15 rows created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
 
 1 row created.
 
@@ -479,12 +463,8 @@ Elapsed: 00:00:00.00
 1 row created.
 
 Elapsed: 00:00:00.02
-INSERT INTO USER_STATE(ID_USER, ID_COMPOSITION, ID_ALBUM, CURRENT_COMPOSITION, CURRENT_PLAYLIST, STOPPING_TIME) select dbms_random.value(1, 2),dbms_random.value(1, 2),dbms_random.value(1, 2),DBMS_RANDOM.STRING ('x', DBMS_RANDOM.VALUE (3,5))
-*
-ERROR at line 1:
-ORA-02291: integrity constraint (UIO.FK_USER_STATE_ID_COMPOSITION) violated - 
-parent key not found 
 
+15 rows created.
 
 Elapsed: 00:00:00.02
 Calling insert_values finished
